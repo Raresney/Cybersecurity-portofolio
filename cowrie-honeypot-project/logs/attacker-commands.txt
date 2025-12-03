@@ -1,1 +1,7 @@
+ssh root@<honeypot-ip>
 uname
+whoami
+cat /etc/*release
+ls -la
+cat ~/.bash_history
+exit
