@@ -1,4 +1,4 @@
-ssh root@192.168.1.87
+ssh root@xxx.xxx.x.xx
 root
 kali
 
